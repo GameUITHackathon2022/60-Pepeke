@@ -1,0 +1,1362 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f4f72e787271a4981e22791d72edc5, type: 3}
+  m_Name: LevelDataSystem
+  m_EditorClassIdentifier: 
+  LevelInfoList:
+  - Level: 1
+    LevelType: 0
+    Background: {fileID: 21300000, guid: 904926378cc24954485beff3b24b0861, type: 3}
+    Desciption: "Ph\xE2n lo\u1EA1i r\xE1c h\u1EEFu c\u01A1"
+    Time: 100
+    StoryList:
+    - {fileID: 21300000, guid: 68d957359a813ec4699dcae71024ccbf, type: 3}
+    - {fileID: 21300000, guid: 961dc3a98e4c6c34d82a46daa41167d9, type: 3}
+    - {fileID: 21300000, guid: d2c5a753c9451b54782d4a6a077e0e8f, type: 3}
+    - {fileID: 21300000, guid: bd477477dad32b1449264a5d2bad6304, type: 3}
+    ObjectList:
+    - ObjectToSpawn:
+        Name: 0
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 21300000, guid: d1cc565eb499f6745b44425c50cae5c7, type: 3}
+        Object: {fileID: -8344632968704070208, guid: 7b8de3ae10733144d82e5d2a72c9f66b, type: 3}
+        Address: Objects/Apple
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 1
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 21300000, guid: a63ae99ea6fb97049a0a39b2a764caf3, type: 3}
+        Object: {fileID: 6532776174406695580, guid: 9314480e675b9094cb6909f23b6304ce, type: 3}
+        Address: Objects/Banana
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 2
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 21300000, guid: 5f7380e7bf1499f47b7da4eeef12fb20, type: 3}
+        Object: {fileID: -3216809055798774885, guid: 49c764c8124b0214f9a4e8e2db356b8c, type: 3}
+        Address: Objects/Battery
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 3
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 21300000, guid: 8df4a3a20f50a4d439e9d3acdb6f77a5, type: 3}
+        Object: {fileID: -5751765318736473393, guid: b4abf345903cc4a4d85693603aab8bb4, type: 3}
+        Address: Objects/Bulb
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 4
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 21300000, guid: 9efb006e14f1a5443b5cb7edb9a1d34b, type: 3}
+        Object: {fileID: -3442812008648772480, guid: b9d7c3a6a26073e4eb7018d223d09226, type: 3}
+        Address: Objects/Can
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 5
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 21300000, guid: 88ff0146beac77f4f95f7a916651eecc, type: 3}
+        Object: {fileID: 4604108118571815082, guid: 47d36ff0f21c785458983aa537821077, type: 3}
+        Address: Objects/Candy1
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 6
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 21300000, guid: b8764dae4ccc34349a715139c36c726e, type: 3}
+        Object: {fileID: -6300889392746512477, guid: ba120df3f700a25479c9d39246a10d93, type: 3}
+        Address: Objects/Candy2
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 7
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 21300000, guid: 833204ad2d1320d4192c057bf49b1c2c, type: 3}
+        Object: {fileID: -5772325600134211515, guid: df780c2bc33454446ba0c123f804c874, type: 3}
+        Address: Objects/Carrot
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 8
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 21300000, guid: 02656ca506ba6f744b0906c38f4deb90, type: 3}
+        Object: {fileID: -2425168770362867616, guid: d10e339c9b3fd584d9417f8ead8699a4, type: 3}
+        Address: Objects/ChickenLeg
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 9
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 21300000, guid: 641b7a20f1e4e26449a74aa62ef609a9, type: 3}
+        Object: {fileID: -2883200196710560428, guid: 2004657ad07bf034292999d89d07b1ce, type: 3}
+        Address: Objects/Cigarette
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 10
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 21300000, guid: 94b82980e36012c418cd307da1a59d03, type: 3}
+        Object: {fileID: -4375010989511424170, guid: 3e9da188e4cf8a94fb6d16c7ce5446ae, type: 3}
+        Address: Objects/FishBone
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 11
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: -6453339978653747577, guid: 39b6018195284d8786bbf5fd3897a491, type: 3}
+        Object: {fileID: -8708063682030585046, guid: dbe222df3aa7a7345866dcd850830497, type: 3}
+        Address: Objects/Magazine
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 12
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -8283923811018244945, guid: cc4ede8d4d9efcb40a9ea9284afbea06, type: 3}
+        Address: Objects/Med1
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 13
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 3872029351664003856, guid: aef717742319ece4193b72562b94ee3f, type: 3}
+        Address: Objects/Med1
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 14
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 21300000, guid: 5f00939e7abb28d459e2158a97958726, type: 3}
+        Object: {fileID: -1957829296165865667, guid: e2b135e1bcb74fa479e3069ced8bb7e5, type: 3}
+        Address: Objects/Milk
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 15
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 21300000, guid: 91bab823ecb8b814192e8ebb234d1e81, type: 3}
+        Object: {fileID: -7909366768728255718, guid: 5a37fed34824fe348a6149021b284ca1, type: 3}
+        Address: Objects/Pen
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 16
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 21300000, guid: d6903cae4917a114b9ea21baaf60a1f9, type: 3}
+        Object: {fileID: 1413299340079998093, guid: 5dbcc40629aa31a479c76318030edba8, type: 3}
+        Address: Objects/ToiletPaper
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 17
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -5619823401717686276, guid: 4e3797e26f85c8b4da23e4bea7a3ef40, type: 3}
+        Address: Objects/Vase
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 18
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 21300000, guid: a97e235595761f84c902d0aff361621b, type: 3}
+        Object: {fileID: 5002863981473865604, guid: 45c0a656cdf06aa4d8fd32fde06f6cfb, type: 3}
+        Address: Objects/WaterBottle
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 19
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 21300000, guid: 2537e31fbb65eaf418dcc5f672f038d6, type: 3}
+        Object: {fileID: -5549591834077959025, guid: 2c0beb7e2d990d341a136e6835f508a6, type: 3}
+        Address: Objects/Wine
+      Quantity: 0
+  - Level: 4
+    LevelType: 1
+    Background: {fileID: 21300000, guid: 517038a73212cab43a13002821d313c3, type: 3}
+    Desciption: "Ph\xE2n lo\u1EA1i r\xE1c t\xE1i ch\u1EBF"
+    Time: 100
+    StoryList:
+    - {fileID: 21300000, guid: 5483d8cb4a96aaa4ebbe44fdf1dbdb8c, type: 3}
+    - {fileID: 21300000, guid: eab4be021ea721249b92d3272f97c65b, type: 3}
+    - {fileID: 21300000, guid: 10c02b1e31097454bb447563877b2873, type: 3}
+    - {fileID: 21300000, guid: 0c4b9a48adbb0c7499086bfba52efb2d, type: 3}
+    - {fileID: 21300000, guid: c4aa664fd2224ad41bbddb6fd9867bb3, type: 3}
+    - {fileID: 21300000, guid: be3eb7e8816cd5e46911fb08b6835702, type: 3}
+    - {fileID: 21300000, guid: 3c9edd2c952fedb42842f02308877dc9, type: 3}
+    ObjectList:
+    - ObjectToSpawn:
+        Name: 0
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 21300000, guid: d1cc565eb499f6745b44425c50cae5c7, type: 3}
+        Object: {fileID: -8344632968704070208, guid: 7b8de3ae10733144d82e5d2a72c9f66b, type: 3}
+        Address: Objects/Apple
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 1
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 21300000, guid: a63ae99ea6fb97049a0a39b2a764caf3, type: 3}
+        Object: {fileID: 6532776174406695580, guid: 9314480e675b9094cb6909f23b6304ce, type: 3}
+        Address: Objects/Banana
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 2
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 21300000, guid: 5f7380e7bf1499f47b7da4eeef12fb20, type: 3}
+        Object: {fileID: -3216809055798774885, guid: 49c764c8124b0214f9a4e8e2db356b8c, type: 3}
+        Address: Objects/Battery
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 3
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 21300000, guid: 8df4a3a20f50a4d439e9d3acdb6f77a5, type: 3}
+        Object: {fileID: -5751765318736473393, guid: b4abf345903cc4a4d85693603aab8bb4, type: 3}
+        Address: Objects/Bulb
+      Quantity: 9
+    - ObjectToSpawn:
+        Name: 4
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 21300000, guid: 9efb006e14f1a5443b5cb7edb9a1d34b, type: 3}
+        Object: {fileID: -3442812008648772480, guid: b9d7c3a6a26073e4eb7018d223d09226, type: 3}
+        Address: Objects/Can
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 5
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 4604108118571815082, guid: 47d36ff0f21c785458983aa537821077, type: 3}
+        Address: Objects/Candy1
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 6
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -6300889392746512477, guid: ba120df3f700a25479c9d39246a10d93, type: 3}
+        Address: Objects/Candy2
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 7
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -5772325600134211515, guid: df780c2bc33454446ba0c123f804c874, type: 3}
+        Address: Objects/Carrot
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 8
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -2425168770362867616, guid: d10e339c9b3fd584d9417f8ead8699a4, type: 3}
+        Address: Objects/ChickenLeg
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 9
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -2883200196710560428, guid: 2004657ad07bf034292999d89d07b1ce, type: 3}
+        Address: Objects/Cigarette
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 10
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -4375010989511424170, guid: 3e9da188e4cf8a94fb6d16c7ce5446ae, type: 3}
+        Address: Objects/FishBone
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 11
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -8708063682030585046, guid: dbe222df3aa7a7345866dcd850830497, type: 3}
+        Address: Objects/Magazine
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 12
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -8283923811018244945, guid: cc4ede8d4d9efcb40a9ea9284afbea06, type: 3}
+        Address: Objects/Med1
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 13
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 3872029351664003856, guid: aef717742319ece4193b72562b94ee3f, type: 3}
+        Address: Objects/Med1
+      Quantity: 12
+    - ObjectToSpawn:
+        Name: 14
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -1957829296165865667, guid: e2b135e1bcb74fa479e3069ced8bb7e5, type: 3}
+        Address: Objects/Milk
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 15
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -7909366768728255718, guid: 5a37fed34824fe348a6149021b284ca1, type: 3}
+        Address: Objects/Pen
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 16
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 1413299340079998093, guid: 5dbcc40629aa31a479c76318030edba8, type: 3}
+        Address: Objects/ToiletPaper
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 17
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -5619823401717686276, guid: 4e3797e26f85c8b4da23e4bea7a3ef40, type: 3}
+        Address: Objects/Vase
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 18
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 5002863981473865604, guid: 45c0a656cdf06aa4d8fd32fde06f6cfb, type: 3}
+        Address: Objects/WaterBottle
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 19
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -5549591834077959025, guid: 2c0beb7e2d990d341a136e6835f508a6, type: 3}
+        Address: Objects/Wine
+      Quantity: 0
+  - Level: 7
+    LevelType: 2
+    Background: {fileID: 21300000, guid: d7ed9442be93cbe408231a9a340ef516, type: 3}
+    Desciption: "Ph\xE2n lo\u1EA1i r\xE1c c\xF2n l\u1EA1i"
+    Time: 100
+    StoryList: []
+    ObjectList:
+    - ObjectToSpawn:
+        Name: 0
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 21300000, guid: d1cc565eb499f6745b44425c50cae5c7, type: 3}
+        Object: {fileID: -8344632968704070208, guid: 7b8de3ae10733144d82e5d2a72c9f66b, type: 3}
+        Address: Objects/Apple
+      Quantity: 5
+    - ObjectToSpawn:
+        Name: 1
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 21300000, guid: a63ae99ea6fb97049a0a39b2a764caf3, type: 3}
+        Object: {fileID: 6532776174406695580, guid: 9314480e675b9094cb6909f23b6304ce, type: 3}
+        Address: Objects/Banana
+      Quantity: 4
+    - ObjectToSpawn:
+        Name: 2
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 21300000, guid: 5f7380e7bf1499f47b7da4eeef12fb20, type: 3}
+        Object: {fileID: -3216809055798774885, guid: 49c764c8124b0214f9a4e8e2db356b8c, type: 3}
+        Address: Objects/Battery
+      Quantity: 8
+    - ObjectToSpawn:
+        Name: 3
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 21300000, guid: 8df4a3a20f50a4d439e9d3acdb6f77a5, type: 3}
+        Object: {fileID: -5751765318736473393, guid: b4abf345903cc4a4d85693603aab8bb4, type: 3}
+        Address: Objects/Bulb
+      Quantity: 7
+    - ObjectToSpawn:
+        Name: 4
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 21300000, guid: 9efb006e14f1a5443b5cb7edb9a1d34b, type: 3}
+        Object: {fileID: -3442812008648772480, guid: b9d7c3a6a26073e4eb7018d223d09226, type: 3}
+        Address: Objects/Can
+      Quantity: 1
+    - ObjectToSpawn:
+        Name: 5
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 4604108118571815082, guid: 47d36ff0f21c785458983aa537821077, type: 3}
+        Address: Objects/Candy1
+      Quantity: 10
+    - ObjectToSpawn:
+        Name: 6
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -6300889392746512477, guid: ba120df3f700a25479c9d39246a10d93, type: 3}
+        Address: Objects/Candy2
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 7
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -5772325600134211515, guid: df780c2bc33454446ba0c123f804c874, type: 3}
+        Address: Objects/Carrot
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 8
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -2425168770362867616, guid: d10e339c9b3fd584d9417f8ead8699a4, type: 3}
+        Address: Objects/ChickenLeg
+      Quantity: 1
+    - ObjectToSpawn:
+        Name: 9
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -2883200196710560428, guid: 2004657ad07bf034292999d89d07b1ce, type: 3}
+        Address: Objects/Cigarette
+      Quantity: 2
+    - ObjectToSpawn:
+        Name: 10
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -4375010989511424170, guid: 3e9da188e4cf8a94fb6d16c7ce5446ae, type: 3}
+        Address: Objects/FishBone
+      Quantity: 1
+    - ObjectToSpawn:
+        Name: 11
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -8708063682030585046, guid: dbe222df3aa7a7345866dcd850830497, type: 3}
+        Address: Objects/Magazine
+      Quantity: 2
+    - ObjectToSpawn:
+        Name: 12
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -8283923811018244945, guid: cc4ede8d4d9efcb40a9ea9284afbea06, type: 3}
+        Address: Objects/Med1
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 13
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 3872029351664003856, guid: aef717742319ece4193b72562b94ee3f, type: 3}
+        Address: Objects/Med1
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 14
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -1957829296165865667, guid: e2b135e1bcb74fa479e3069ced8bb7e5, type: 3}
+        Address: Objects/Milk
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 15
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -7909366768728255718, guid: 5a37fed34824fe348a6149021b284ca1, type: 3}
+        Address: Objects/Pen
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 16
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 1413299340079998093, guid: 5dbcc40629aa31a479c76318030edba8, type: 3}
+        Address: Objects/ToiletPaper
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 17
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -5619823401717686276, guid: 4e3797e26f85c8b4da23e4bea7a3ef40, type: 3}
+        Address: Objects/Vase
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 18
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 5002863981473865604, guid: 45c0a656cdf06aa4d8fd32fde06f6cfb, type: 3}
+        Address: Objects/WaterBottle
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 19
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -5549591834077959025, guid: 2c0beb7e2d990d341a136e6835f508a6, type: 3}
+        Address: Objects/Wine
+      Quantity: 3
+  - Level: 8
+    LevelType: 3
+    Background: {fileID: 21300000, guid: 24fbebd188c904740a4e0aa78c1a55cd, type: 3}
+    Desciption: "Ph\xE2n lo\u1EA1i r\xE1c th\u1EA3i nguy h\u1EA1i"
+    Time: 100
+    StoryList: []
+    ObjectList:
+    - ObjectToSpawn:
+        Name: 0
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 21300000, guid: d1cc565eb499f6745b44425c50cae5c7, type: 3}
+        Object: {fileID: -8344632968704070208, guid: 7b8de3ae10733144d82e5d2a72c9f66b, type: 3}
+        Address: Objects/Apple
+      Quantity: 15
+    - ObjectToSpawn:
+        Name: 1
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 21300000, guid: a63ae99ea6fb97049a0a39b2a764caf3, type: 3}
+        Object: {fileID: 6532776174406695580, guid: 9314480e675b9094cb6909f23b6304ce, type: 3}
+        Address: Objects/Banana
+      Quantity: 14
+    - ObjectToSpawn:
+        Name: 2
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 21300000, guid: 5f7380e7bf1499f47b7da4eeef12fb20, type: 3}
+        Object: {fileID: -3216809055798774885, guid: 49c764c8124b0214f9a4e8e2db356b8c, type: 3}
+        Address: Objects/Battery
+      Quantity: 13
+    - ObjectToSpawn:
+        Name: 3
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 21300000, guid: 8df4a3a20f50a4d439e9d3acdb6f77a5, type: 3}
+        Object: {fileID: -5751765318736473393, guid: b4abf345903cc4a4d85693603aab8bb4, type: 3}
+        Address: Objects/Bulb
+      Quantity: 13
+    - ObjectToSpawn:
+        Name: 4
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 21300000, guid: 9efb006e14f1a5443b5cb7edb9a1d34b, type: 3}
+        Object: {fileID: -3442812008648772480, guid: b9d7c3a6a26073e4eb7018d223d09226, type: 3}
+        Address: Objects/Can
+      Quantity: 12
+    - ObjectToSpawn:
+        Name: 5
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 4604108118571815082, guid: 47d36ff0f21c785458983aa537821077, type: 3}
+        Address: Objects/Candy1
+      Quantity: 11
+    - ObjectToSpawn:
+        Name: 6
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -6300889392746512477, guid: ba120df3f700a25479c9d39246a10d93, type: 3}
+        Address: Objects/Candy2
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 7
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -5772325600134211515, guid: df780c2bc33454446ba0c123f804c874, type: 3}
+        Address: Objects/Carrot
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 8
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -2425168770362867616, guid: d10e339c9b3fd584d9417f8ead8699a4, type: 3}
+        Address: Objects/ChickenLeg
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 9
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -2883200196710560428, guid: 2004657ad07bf034292999d89d07b1ce, type: 3}
+        Address: Objects/Cigarette
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 10
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -4375010989511424170, guid: 3e9da188e4cf8a94fb6d16c7ce5446ae, type: 3}
+        Address: Objects/FishBone
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 11
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -8708063682030585046, guid: dbe222df3aa7a7345866dcd850830497, type: 3}
+        Address: Objects/Magazine
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 12
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -8283923811018244945, guid: cc4ede8d4d9efcb40a9ea9284afbea06, type: 3}
+        Address: Objects/Med1
+      Quantity: 5
+    - ObjectToSpawn:
+        Name: 13
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 3872029351664003856, guid: aef717742319ece4193b72562b94ee3f, type: 3}
+        Address: Objects/Med1
+      Quantity: 4
+    - ObjectToSpawn:
+        Name: 14
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -1957829296165865667, guid: e2b135e1bcb74fa479e3069ced8bb7e5, type: 3}
+        Address: Objects/Milk
+      Quantity: 5
+    - ObjectToSpawn:
+        Name: 15
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -7909366768728255718, guid: 5a37fed34824fe348a6149021b284ca1, type: 3}
+        Address: Objects/Pen
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 16
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 1413299340079998093, guid: 5dbcc40629aa31a479c76318030edba8, type: 3}
+        Address: Objects/ToiletPaper
+      Quantity: 7
+    - ObjectToSpawn:
+        Name: 17
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -5619823401717686276, guid: 4e3797e26f85c8b4da23e4bea7a3ef40, type: 3}
+        Address: Objects/Vase
+      Quantity: 8
+    - ObjectToSpawn:
+        Name: 18
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 5002863981473865604, guid: 45c0a656cdf06aa4d8fd32fde06f6cfb, type: 3}
+        Address: Objects/WaterBottle
+      Quantity: 9
+    - ObjectToSpawn:
+        Name: 19
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -5549591834077959025, guid: 2c0beb7e2d990d341a136e6835f508a6, type: 3}
+        Address: Objects/Wine
+      Quantity: 10
+  - Level: 2
+    LevelType: 0
+    Background: {fileID: 21300000, guid: 904926378cc24954485beff3b24b0861, type: 3}
+    Desciption: "Ph\xE2n lo\u1EA1i r\xE1c h\u1EEFu c\u01A1"
+    Time: 100
+    StoryList: []
+    ObjectList:
+    - ObjectToSpawn:
+        Name: 0
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 21300000, guid: d1cc565eb499f6745b44425c50cae5c7, type: 3}
+        Object: {fileID: -8344632968704070208, guid: 7b8de3ae10733144d82e5d2a72c9f66b, type: 3}
+        Address: Objects/Apple
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 1
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 21300000, guid: a63ae99ea6fb97049a0a39b2a764caf3, type: 3}
+        Object: {fileID: 6532776174406695580, guid: 9314480e675b9094cb6909f23b6304ce, type: 3}
+        Address: Objects/Banana
+      Quantity: 12
+    - ObjectToSpawn:
+        Name: 2
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 21300000, guid: 5f7380e7bf1499f47b7da4eeef12fb20, type: 3}
+        Object: {fileID: -3216809055798774885, guid: 49c764c8124b0214f9a4e8e2db356b8c, type: 3}
+        Address: Objects/Battery
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 3
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 21300000, guid: 8df4a3a20f50a4d439e9d3acdb6f77a5, type: 3}
+        Object: {fileID: -5751765318736473393, guid: b4abf345903cc4a4d85693603aab8bb4, type: 3}
+        Address: Objects/Bulb
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 4
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 21300000, guid: 9efb006e14f1a5443b5cb7edb9a1d34b, type: 3}
+        Object: {fileID: -3442812008648772480, guid: b9d7c3a6a26073e4eb7018d223d09226, type: 3}
+        Address: Objects/Can
+      Quantity: 12
+    - ObjectToSpawn:
+        Name: 5
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 21300000, guid: 88ff0146beac77f4f95f7a916651eecc, type: 3}
+        Object: {fileID: 4604108118571815082, guid: 47d36ff0f21c785458983aa537821077, type: 3}
+        Address: Objects/Candy1
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 6
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 21300000, guid: b8764dae4ccc34349a715139c36c726e, type: 3}
+        Object: {fileID: -6300889392746512477, guid: ba120df3f700a25479c9d39246a10d93, type: 3}
+        Address: Objects/Candy2
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 7
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 21300000, guid: 833204ad2d1320d4192c057bf49b1c2c, type: 3}
+        Object: {fileID: -5772325600134211515, guid: df780c2bc33454446ba0c123f804c874, type: 3}
+        Address: Objects/Carrot
+      Quantity: 12
+    - ObjectToSpawn:
+        Name: 8
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 21300000, guid: 02656ca506ba6f744b0906c38f4deb90, type: 3}
+        Object: {fileID: -2425168770362867616, guid: d10e339c9b3fd584d9417f8ead8699a4, type: 3}
+        Address: Objects/ChickenLeg
+      Quantity: 9
+    - ObjectToSpawn:
+        Name: 9
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 21300000, guid: 641b7a20f1e4e26449a74aa62ef609a9, type: 3}
+        Object: {fileID: -2883200196710560428, guid: 2004657ad07bf034292999d89d07b1ce, type: 3}
+        Address: Objects/Cigarette
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 10
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -4375010989511424170, guid: 3e9da188e4cf8a94fb6d16c7ce5446ae, type: 3}
+        Address: Objects/FishBone
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 11
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -8708063682030585046, guid: dbe222df3aa7a7345866dcd850830497, type: 3}
+        Address: Objects/Magazine
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 12
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -8283923811018244945, guid: cc4ede8d4d9efcb40a9ea9284afbea06, type: 3}
+        Address: Objects/Med1
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 13
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 3872029351664003856, guid: aef717742319ece4193b72562b94ee3f, type: 3}
+        Address: Objects/Med1
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 14
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -1957829296165865667, guid: e2b135e1bcb74fa479e3069ced8bb7e5, type: 3}
+        Address: Objects/Milk
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 15
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -7909366768728255718, guid: 5a37fed34824fe348a6149021b284ca1, type: 3}
+        Address: Objects/Pen
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 16
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 1413299340079998093, guid: 5dbcc40629aa31a479c76318030edba8, type: 3}
+        Address: Objects/ToiletPaper
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 17
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -5619823401717686276, guid: 4e3797e26f85c8b4da23e4bea7a3ef40, type: 3}
+        Address: Objects/Vase
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 18
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 5002863981473865604, guid: 45c0a656cdf06aa4d8fd32fde06f6cfb, type: 3}
+        Address: Objects/WaterBottle
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 19
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -5549591834077959025, guid: 2c0beb7e2d990d341a136e6835f508a6, type: 3}
+        Address: Objects/Wine
+      Quantity: 0
+  - Level: 3
+    LevelType: 0
+    Background: {fileID: 21300000, guid: 904926378cc24954485beff3b24b0861, type: 3}
+    Desciption: "Ph\xE2n lo\u1EA1i r\xE1c h\u1EEFu c\u01A1"
+    Time: 100
+    StoryList: []
+    ObjectList:
+    - ObjectToSpawn:
+        Name: 0
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 21300000, guid: d1cc565eb499f6745b44425c50cae5c7, type: 3}
+        Object: {fileID: -8344632968704070208, guid: 7b8de3ae10733144d82e5d2a72c9f66b, type: 3}
+        Address: Objects/Apple
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 1
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 21300000, guid: a63ae99ea6fb97049a0a39b2a764caf3, type: 3}
+        Object: {fileID: 6532776174406695580, guid: 9314480e675b9094cb6909f23b6304ce, type: 3}
+        Address: Objects/Banana
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 2
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 21300000, guid: 5f7380e7bf1499f47b7da4eeef12fb20, type: 3}
+        Object: {fileID: -3216809055798774885, guid: 49c764c8124b0214f9a4e8e2db356b8c, type: 3}
+        Address: Objects/Battery
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 3
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 21300000, guid: 8df4a3a20f50a4d439e9d3acdb6f77a5, type: 3}
+        Object: {fileID: -5751765318736473393, guid: b4abf345903cc4a4d85693603aab8bb4, type: 3}
+        Address: Objects/Bulb
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 4
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 21300000, guid: 9efb006e14f1a5443b5cb7edb9a1d34b, type: 3}
+        Object: {fileID: -3442812008648772480, guid: b9d7c3a6a26073e4eb7018d223d09226, type: 3}
+        Address: Objects/Can
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 5
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 4604108118571815082, guid: 47d36ff0f21c785458983aa537821077, type: 3}
+        Address: Objects/Candy1
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 6
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -6300889392746512477, guid: ba120df3f700a25479c9d39246a10d93, type: 3}
+        Address: Objects/Candy2
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 7
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -5772325600134211515, guid: df780c2bc33454446ba0c123f804c874, type: 3}
+        Address: Objects/Carrot
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 8
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -2425168770362867616, guid: d10e339c9b3fd584d9417f8ead8699a4, type: 3}
+        Address: Objects/ChickenLeg
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 9
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -2883200196710560428, guid: 2004657ad07bf034292999d89d07b1ce, type: 3}
+        Address: Objects/Cigarette
+      Quantity: 9
+    - ObjectToSpawn:
+        Name: 10
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -4375010989511424170, guid: 3e9da188e4cf8a94fb6d16c7ce5446ae, type: 3}
+        Address: Objects/FishBone
+      Quantity: 12
+    - ObjectToSpawn:
+        Name: 11
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -8708063682030585046, guid: dbe222df3aa7a7345866dcd850830497, type: 3}
+        Address: Objects/Magazine
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 12
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -8283923811018244945, guid: cc4ede8d4d9efcb40a9ea9284afbea06, type: 3}
+        Address: Objects/Med1
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 13
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 3872029351664003856, guid: aef717742319ece4193b72562b94ee3f, type: 3}
+        Address: Objects/Med1
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 14
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -1957829296165865667, guid: e2b135e1bcb74fa479e3069ced8bb7e5, type: 3}
+        Address: Objects/Milk
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 15
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -7909366768728255718, guid: 5a37fed34824fe348a6149021b284ca1, type: 3}
+        Address: Objects/Pen
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 16
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 1413299340079998093, guid: 5dbcc40629aa31a479c76318030edba8, type: 3}
+        Address: Objects/ToiletPaper
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 17
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -5619823401717686276, guid: 4e3797e26f85c8b4da23e4bea7a3ef40, type: 3}
+        Address: Objects/Vase
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 18
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 5002863981473865604, guid: 45c0a656cdf06aa4d8fd32fde06f6cfb, type: 3}
+        Address: Objects/WaterBottle
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 19
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -5549591834077959025, guid: 2c0beb7e2d990d341a136e6835f508a6, type: 3}
+        Address: Objects/Wine
+      Quantity: 0
+  - Level: 5
+    LevelType: 1
+    Background: {fileID: 21300000, guid: 517038a73212cab43a13002821d313c3, type: 3}
+    Desciption: "Ph\xE2n lo\u1EA1i r\xE1c t\xE1i ch\u1EBF"
+    Time: 100
+    StoryList: []
+    ObjectList:
+    - ObjectToSpawn:
+        Name: 0
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 21300000, guid: d1cc565eb499f6745b44425c50cae5c7, type: 3}
+        Object: {fileID: -8344632968704070208, guid: 7b8de3ae10733144d82e5d2a72c9f66b, type: 3}
+        Address: Objects/Apple
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 1
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 21300000, guid: a63ae99ea6fb97049a0a39b2a764caf3, type: 3}
+        Object: {fileID: 6532776174406695580, guid: 9314480e675b9094cb6909f23b6304ce, type: 3}
+        Address: Objects/Banana
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 2
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 21300000, guid: 5f7380e7bf1499f47b7da4eeef12fb20, type: 3}
+        Object: {fileID: -3216809055798774885, guid: 49c764c8124b0214f9a4e8e2db356b8c, type: 3}
+        Address: Objects/Battery
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 3
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 21300000, guid: 8df4a3a20f50a4d439e9d3acdb6f77a5, type: 3}
+        Object: {fileID: -5751765318736473393, guid: b4abf345903cc4a4d85693603aab8bb4, type: 3}
+        Address: Objects/Bulb
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 4
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 21300000, guid: 9efb006e14f1a5443b5cb7edb9a1d34b, type: 3}
+        Object: {fileID: -3442812008648772480, guid: b9d7c3a6a26073e4eb7018d223d09226, type: 3}
+        Address: Objects/Can
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 5
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 4604108118571815082, guid: 47d36ff0f21c785458983aa537821077, type: 3}
+        Address: Objects/Candy1
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 6
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -6300889392746512477, guid: ba120df3f700a25479c9d39246a10d93, type: 3}
+        Address: Objects/Candy2
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 7
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -5772325600134211515, guid: df780c2bc33454446ba0c123f804c874, type: 3}
+        Address: Objects/Carrot
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 8
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -2425168770362867616, guid: d10e339c9b3fd584d9417f8ead8699a4, type: 3}
+        Address: Objects/ChickenLeg
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 9
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -2883200196710560428, guid: 2004657ad07bf034292999d89d07b1ce, type: 3}
+        Address: Objects/Cigarette
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 10
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -4375010989511424170, guid: 3e9da188e4cf8a94fb6d16c7ce5446ae, type: 3}
+        Address: Objects/FishBone
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 11
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -8708063682030585046, guid: dbe222df3aa7a7345866dcd850830497, type: 3}
+        Address: Objects/Magazine
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 12
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -8283923811018244945, guid: cc4ede8d4d9efcb40a9ea9284afbea06, type: 3}
+        Address: Objects/Med1
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 13
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 3872029351664003856, guid: aef717742319ece4193b72562b94ee3f, type: 3}
+        Address: Objects/Med1
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 14
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -1957829296165865667, guid: e2b135e1bcb74fa479e3069ced8bb7e5, type: 3}
+        Address: Objects/Milk
+      Quantity: 12
+    - ObjectToSpawn:
+        Name: 15
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -7909366768728255718, guid: 5a37fed34824fe348a6149021b284ca1, type: 3}
+        Address: Objects/Pen
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 16
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 1413299340079998093, guid: 5dbcc40629aa31a479c76318030edba8, type: 3}
+        Address: Objects/ToiletPaper
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 17
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -5619823401717686276, guid: 4e3797e26f85c8b4da23e4bea7a3ef40, type: 3}
+        Address: Objects/Vase
+      Quantity: 9
+    - ObjectToSpawn:
+        Name: 18
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 5002863981473865604, guid: 45c0a656cdf06aa4d8fd32fde06f6cfb, type: 3}
+        Address: Objects/WaterBottle
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 19
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -5549591834077959025, guid: 2c0beb7e2d990d341a136e6835f508a6, type: 3}
+        Address: Objects/Wine
+      Quantity: 0
+  - Level: 6
+    LevelType: 2
+    Background: {fileID: 21300000, guid: d7ed9442be93cbe408231a9a340ef516, type: 3}
+    Desciption: "Ph\xE2n lo\u1EA1i r\xE1c c\xF2n l\u1EA1i"
+    Time: 100
+    StoryList: []
+    ObjectList:
+    - ObjectToSpawn:
+        Name: 0
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 21300000, guid: d1cc565eb499f6745b44425c50cae5c7, type: 3}
+        Object: {fileID: -8344632968704070208, guid: 7b8de3ae10733144d82e5d2a72c9f66b, type: 3}
+        Address: Objects/Apple
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 1
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 21300000, guid: a63ae99ea6fb97049a0a39b2a764caf3, type: 3}
+        Object: {fileID: 6532776174406695580, guid: 9314480e675b9094cb6909f23b6304ce, type: 3}
+        Address: Objects/Banana
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 2
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 21300000, guid: 5f7380e7bf1499f47b7da4eeef12fb20, type: 3}
+        Object: {fileID: -3216809055798774885, guid: 49c764c8124b0214f9a4e8e2db356b8c, type: 3}
+        Address: Objects/Battery
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 3
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 21300000, guid: 8df4a3a20f50a4d439e9d3acdb6f77a5, type: 3}
+        Object: {fileID: -5751765318736473393, guid: b4abf345903cc4a4d85693603aab8bb4, type: 3}
+        Address: Objects/Bulb
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 4
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 21300000, guid: 9efb006e14f1a5443b5cb7edb9a1d34b, type: 3}
+        Object: {fileID: -3442812008648772480, guid: b9d7c3a6a26073e4eb7018d223d09226, type: 3}
+        Address: Objects/Can
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 5
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 4604108118571815082, guid: 47d36ff0f21c785458983aa537821077, type: 3}
+        Address: Objects/Candy1
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 6
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -6300889392746512477, guid: ba120df3f700a25479c9d39246a10d93, type: 3}
+        Address: Objects/Candy2
+      Quantity: 12
+    - ObjectToSpawn:
+        Name: 7
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -5772325600134211515, guid: df780c2bc33454446ba0c123f804c874, type: 3}
+        Address: Objects/Carrot
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 8
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -2425168770362867616, guid: d10e339c9b3fd584d9417f8ead8699a4, type: 3}
+        Address: Objects/ChickenLeg
+      Quantity: 3
+    - ObjectToSpawn:
+        Name: 9
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -2883200196710560428, guid: 2004657ad07bf034292999d89d07b1ce, type: 3}
+        Address: Objects/Cigarette
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 10
+        ObjectType: 0
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -4375010989511424170, guid: 3e9da188e4cf8a94fb6d16c7ce5446ae, type: 3}
+        Address: Objects/FishBone
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 11
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -8708063682030585046, guid: dbe222df3aa7a7345866dcd850830497, type: 3}
+        Address: Objects/Magazine
+      Quantity: 0
+    - ObjectToSpawn:
+        Name: 12
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -8283923811018244945, guid: cc4ede8d4d9efcb40a9ea9284afbea06, type: 3}
+        Address: Objects/Med1
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 13
+        ObjectType: 3
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 3872029351664003856, guid: aef717742319ece4193b72562b94ee3f, type: 3}
+        Address: Objects/Med1
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 14
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -1957829296165865667, guid: e2b135e1bcb74fa479e3069ced8bb7e5, type: 3}
+        Address: Objects/Milk
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 15
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -7909366768728255718, guid: 5a37fed34824fe348a6149021b284ca1, type: 3}
+        Address: Objects/Pen
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 16
+        ObjectType: 2
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 1413299340079998093, guid: 5dbcc40629aa31a479c76318030edba8, type: 3}
+        Address: Objects/ToiletPaper
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 17
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -5619823401717686276, guid: 4e3797e26f85c8b4da23e4bea7a3ef40, type: 3}
+        Address: Objects/Vase
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 18
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: 5002863981473865604, guid: 45c0a656cdf06aa4d8fd32fde06f6cfb, type: 3}
+        Address: Objects/WaterBottle
+      Quantity: 6
+    - ObjectToSpawn:
+        Name: 19
+        ObjectType: 1
+        Description: 
+        Icon: {fileID: 0}
+        Object: {fileID: -5549591834077959025, guid: 2c0beb7e2d990d341a136e6835f508a6, type: 3}
+        Address: Objects/Wine
+      Quantity: 0

@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 705a75d1ab398374691c1a2757758cfd, type: 3}
+  m_Name: ObjectDataSystem1
+  m_EditorClassIdentifier: 
+  ObjectInfoList:
+  - Name: 0
+    ObjectType: 0
+    Description: 
+    Icon: {fileID: 0}
+    Object: {fileID: -8344632968704070208, guid: 7b8de3ae10733144d82e5d2a72c9f66b, type: 3}
+    Address: Objects/Apple
+  - Name: 1
+    ObjectType: 0
+    Description: 
+    Icon: {fileID: 0}
+    Object: {fileID: 6532776174406695580, guid: 9314480e675b9094cb6909f23b6304ce, type: 3}
+    Address: Objects/Banana
+  - Name: 2
+    ObjectType: 3
+    Description: 
+    Icon: {fileID: 0}
+    Object: {fileID: -3216809055798774885, guid: 49c764c8124b0214f9a4e8e2db356b8c, type: 3}
+    Address: Objects/Battery
+  - Name: 3
+    ObjectType: 3
+    Description: 
+    Icon: {fileID: 0}
+    Object: {fileID: -5751765318736473393, guid: b4abf345903cc4a4d85693603aab8bb4, type: 3}
+    Address: Objects/Bulb
+  - Name: 4
+    ObjectType: 1
+    Description: 
+    Icon: {fileID: 0}
+    Object: {fileID: -3442812008648772480, guid: b9d7c3a6a26073e4eb7018d223d09226, type: 3}
+    Address: Objects/Can
+  - Name: 5
+    ObjectType: 2
+    Description: 
+    Icon: {fileID: 0}
+    Object: {fileID: 4604108118571815082, guid: 47d36ff0f21c785458983aa537821077, type: 3}
+    Address: Objects/Candy1
+  - Name: 6
+    ObjectType: 2
+    Description: 
+    Icon: {fileID: 0}
+    Object: {fileID: -6300889392746512477, guid: ba120df3f700a25479c9d39246a10d93, type: 3}
+    Address: Objects/Candy2
+  - Name: 7
+    ObjectType: 0
+    Description: 
+    Icon: {fileID: 0}
+    Object: {fileID: -5772325600134211515, guid: df780c2bc33454446ba0c123f804c874, type: 3}
+    Address: Objects/Carrot
+  - Name: 8
+    ObjectType: 0
+    Description: 
+    Icon: {fileID: 0}
+    Object: {fileID: -2425168770362867616, guid: d10e339c9b3fd584d9417f8ead8699a4, type: 3}
+    Address: Objects/ChickenLeg
+  - Name: 9
+    ObjectType: 2
+    Description: 
+    Icon: {fileID: 0}
+    Object: {fileID: -2883200196710560428, guid: 2004657ad07bf034292999d89d07b1ce, type: 3}
+    Address: Objects/Cigarette
+  - Name: 10
+    ObjectType: 0
+    Description: 
+    Icon: {fileID: 0}
+    Object: {fileID: -4375010989511424170, guid: 3e9da188e4cf8a94fb6d16c7ce5446ae, type: 3}
+    Address: Objects/FishBone
+  - Name: 11
+    ObjectType: 1
+    Description: 
+    Icon: {fileID: 0}
+    Object: {fileID: -8708063682030585046, guid: dbe222df3aa7a7345866dcd850830497, type: 3}
+    Address: Objects/Magazine
+  - Name: 12
+    ObjectType: 3
+    Description: 
+    Icon: {fileID: 0}
+    Object: {fileID: -8283923811018244945, guid: cc4ede8d4d9efcb40a9ea9284afbea06, type: 3}
+    Address: Objects/Med1
+  - Name: 13
+    ObjectType: 3
+    Description: 
+    Icon: {fileID: 0}
+    Object: {fileID: 3872029351664003856, guid: aef717742319ece4193b72562b94ee3f, type: 3}
+    Address: Objects/Med1
+  - Name: 14
+    ObjectType: 1
+    Description: 
+    Icon: {fileID: 0}
+    Object: {fileID: -1957829296165865667, guid: e2b135e1bcb74fa479e3069ced8bb7e5, type: 3}
+    Address: Objects/Milk
+  - Name: 15
+    ObjectType: 1
+    Description: 
+    Icon: {fileID: 0}
+    Object: {fileID: -7909366768728255718, guid: 5a37fed34824fe348a6149021b284ca1, type: 3}
+    Address: Objects/Pen
+  - Name: 16
+    ObjectType: 2
+    Description: 
+    Icon: {fileID: 0}
+    Object: {fileID: 1413299340079998093, guid: 5dbcc40629aa31a479c76318030edba8, type: 3}
+    Address: Objects/ToiletPaper
+  - Name: 17
+    ObjectType: 1
+    Description: 
+    Icon: {fileID: 0}
+    Object: {fileID: -5619823401717686276, guid: 4e3797e26f85c8b4da23e4bea7a3ef40, type: 3}
+    Address: Objects/Vase
+  - Name: 18
+    ObjectType: 1
+    Description: 
+    Icon: {fileID: 0}
+    Object: {fileID: 5002863981473865604, guid: 45c0a656cdf06aa4d8fd32fde06f6cfb, type: 3}
+    Address: Objects/WaterBottle
+  - Name: 19
+    ObjectType: 1
+    Description: 
+    Icon: {fileID: 0}
+    Object: {fileID: -5549591834077959025, guid: 2c0beb7e2d990d341a136e6835f508a6, type: 3}
+    Address: Objects/Wine

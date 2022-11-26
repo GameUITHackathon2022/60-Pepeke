@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 457a56e4242b6df47a2143fcf672ea8f, type: 3}
+  m_Name: ViewInfoSystem
+  m_EditorClassIdentifier: 
+  ViewInfos:
+  - ViewName: TPMBaseScreen
+    Address: Views/TPMBaseScreen
+  - ViewName: TPMCardScreen
+    Address: Views/TPMCardScreen
+  - ViewName: TPMContentWindow
+    Address: Views/TPMContentWindow
+  - ViewName: TPMGamePlayBottomBar
+    Address: Views/TPMGamePlayBottomBar
+  - ViewName: TPMGamePlayTopBar
+    Address: Views/TPMGamePlayTopBar
+  - ViewName: TPMGamePlayWindow
+    Address: Views/TPMGamePlayWindow
+  - ViewName: TPMLeaderboardScreen
+    Address: Views/TPMLeaderboardScreen
+  - ViewName: TPMMainMenuBottomBar
+    Address: Views/TPMMainMenuBottomBar
+  - ViewName: TPMMainMenuScrollView
+    Address: Views/TPMMainMenuScrollView
+  - ViewName: TPMMainMenuTopBar
+    Address: Views/TPMMainMenuTopBar
+  - ViewName: TPMMainMenuWindow
+    Address: Views/TPMMainMenuWindow
+  - ViewName: TPMSettingScreen
+    Address: Views/TPMSettingScreen
+  - ViewName: TPMShopScreen
+    Address: Views/TPMShopScreen
+  - ViewName: TPMTeamScreen
+    Address: Views/TPMTeamScreen
+  - ViewName: TPMGamePlayLoseScreen
+    Address: Views/TPMGamePlayLoseScreen
+  - ViewName: TPMGamePlayWinScreen
+    Address: Views/TPMGamePlayWinScreen
+  - ViewName: TPMPauseScreen
+    Address: Views/TPMPauseScreen
+  - ViewName: TPMStoryScreen
+    Address: Views/TPMStoryScreen
+  - ViewName: TPMCollectObjectScreen
+    Address: Views/TPMCollectObjectScreen

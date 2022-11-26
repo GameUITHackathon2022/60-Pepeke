@@ -1,0 +1,100 @@
+﻿{
+    "items": [
+        {
+            "key": "Archery",
+            "translated": "Archery_"
+        },
+        {
+            "key": "Locked",
+            "translated": "Locked_"
+        },
+        {
+            "key": "Clamp",
+            "translated": "Clamp_"
+        },
+        {
+            "key": "COLLECT",
+            "translated": "COLLECT_"
+        },
+        {
+            "key": "MERGE MASTER",
+            "translated": "MERGE MASTER_"
+        },
+        {
+            "key": "No match found",
+            "translated": "No match found_"
+        },
+        {
+            "key": "Enter your name...",
+            "translated": "Enter your name..._"
+        },
+        {
+            "key": "SETTINGS",
+            "translated": "SETTINGS_"
+        },
+        {
+            "key": "No, thanks",
+            "translated": "No, thanks_"
+        },
+        {
+            "key": "MY CARD",
+            "translated": "MY CARD_"
+        },
+        {
+            "key": "Start Fight",
+            "translated": "Start Fight_"
+        },
+        {
+            "key": "NO ADS",
+            "translated": "NO ADS_"
+        },
+        {
+            "key": "IAP",
+            "translated": "IAP_"
+        },
+        {
+            "key": "WELCOME!",
+            "translated": "WELCOME!_"
+        },
+        {
+            "key": "Enter game",
+            "translated": "Enter game_"
+        },
+        {
+            "key": "FREE",
+            "translated": "FREE_"
+        },
+        {
+            "key": "CHEST",
+            "translated": "CHEST_"
+        },
+        {
+            "key": "Online Mode",
+            "translated": "Online Mode_"
+        },
+        {
+            "key": "Offline Mode",
+            "translated": "Offline Mode_"
+        },
+        {
+            "key": "Victory",
+            "translated": "Victory_"
+        },
+        {
+            "key": "FAILED",
+            "translated": "FAILED_"
+        },
+        {
+            "key": "Find Opponent",
+            "translated": "Find Opponent_"
+        },
+        {
+            "key": "YOU EARNED:",
+            "translated": "YOU EARNED:_"
+        },
+        {
+            "key": "NEW CARD",
+            "translated": "NEW CARD_"
+        }
+    ]
+}

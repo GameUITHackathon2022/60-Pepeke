@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 705a75d1ab398374691c1a2757758cfd, type: 3}
+  m_Name: ObjectDataSystem
+  m_EditorClassIdentifier: 
+  ObjectInfoList:
+  - Name: Glass
+    ObjectType: 1
+    Description: Widely used in daily life, discarded glass can be used as raw materials
+      for brick production, as soundproofing, decoration, ..
+    Icon: {fileID: 21300000, guid: 53e76ad0fb8f4044ae7ae35e7995bf26, type: 3}
+    Object: {fileID: 0}
+    Address: Objects/Apple
+  - Name: Paper
+    ObjectType: 1
+    Description: Used paper but reprocessed into new paper to serve different needs
+      in lifeI'm full, so throw it away ~~
+    Icon: {fileID: 21300000, guid: daa80cbb69c2482ea1b7a717504eb57b, type: 3}
+    Object: {fileID: 0}
+    Address: Objects/Paper
+  - Name: Battery
+    ObjectType: 1
+    Description: Used paper but reprocessed into new paper to serve different needs
+      in life
+    Icon: {fileID: 21300000, guid: 470e941b897d490b8ddac62dd1cf5a8c, type: 3}
+    Object: {fileID: 0}
+    Address: 
+  - Name: FishBone
+    ObjectType: 0
+    Description: Fish protein fertilizer contains a lot of amino acids, protein,
+      minerals, phosphorus, potassium and vitamins that fish bones are used for nutrition
+    Icon: {fileID: 21300000, guid: b9bb95142d0c4d8ea1ff33244391130d, type: 3}
+    Object: {fileID: 0}
+    Address: 
+  - Name: MetalBottle
+    ObjectType: 1
+    Description: I'm full, so throw it away ~~On average, each Vietnamese person
+      consumes 667 cans of water per year
+    Icon: {fileID: 21300000, guid: b9bb95142d0c4d8ea1ff33244391130d, type: 3}
+    Object: {fileID: 0}
+    Address: 
+  - Name: Chemicals
+    ObjectType: 3
+    Description: If chemicals are not handled properly, they can cause cancer, respiratory
+      diseases, human deformities or death if affected too much. Not only that, they
+      directly affect the surrounding ecosystem and animals
+    Icon: {fileID: 21300000, guid: b9bb95142d0c4d8ea1ff33244391130d, type: 3}
+    Object: {fileID: 0}
+    Address: 
+  - Name: ElectronicComponents
+    ObjectType: 3
+    Description: Waste from electronic components containing heavy metals can be
+      released during inappropriate recycling, resulting in harming to humans, animals,
+      plants or components of the environment
+    Icon: {fileID: 21300000, guid: b9bb95142d0c4d8ea1ff33244391130d, type: 3}
+    Object: {fileID: 0}
+    Address: 
