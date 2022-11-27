@@ -9,6 +9,7 @@ public class PGPSpawner : MonoBehaviour
     public PDTLevelDataSystem LevelDataSystem;
     List<PGPObjectSpawnVolume> ObjectList;
     public List<PGPObject> CurrentObjectList;
+    public List<PGPObject> BlablaObjectList;
     public Transform[] SpawnPositions;
     Vector3 SpawnDirection;
     public int LevelIndex;
@@ -28,7 +29,24 @@ public class PGPSpawner : MonoBehaviour
         }
 
     }
-
+    bool used = false;
+    public void FanBtnOclick()
+    {
+        if (used)
+            return;
+        foreach (var item in BlablaObjectList)
+        {
+            if(item!= null)
+             item.GetComponent<Rigidbody>().AddForce(Vector3.up * UnityEngine.Random.Range(20, 50),ForceMode.VelocityChange);
+        }
+        StartCoroutine(IEnumWait());
+    }
+    IEnumerator IEnumWait()
+    {
+        used = true;
+        yield return new WaitForSeconds(2.5f);
+        used = false;
+    }
     public void SpawnObject(Action<Transform> onObjectSelectedCallBack)
     {
         for (int i = 0; i < ObjectList.Count; i++)
@@ -40,7 +58,8 @@ public class PGPSpawner : MonoBehaviour
                 PGPObject spawnedObject = Instantiate(ObjectList[i].ObjectToSpawn.Object, SpawnPositions[UnityEngine.Random.Range(0, 4)].position * UnityEngine.Random.Range(0.8f,1.2f),Quaternion.AngleAxis(0,SpawnDirection));
                 spawnedObject.OnObjectSelectedCallBack = onObjectSelectedCallBack;
                 spawnedObject.GetComponent<Rigidbody>().velocity = SpawnDirection;
-                if(spawnedObject.Type == LevelType)
+                BlablaObjectList.Add(spawnedObject);
+                if (spawnedObject.Type == LevelType)
                 {
                     CurrentObjectList.Add(spawnedObject);
                 }
