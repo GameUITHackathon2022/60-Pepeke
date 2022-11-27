@@ -363,7 +363,14 @@ MonoBehaviour:
     Background: {fileID: 21300000, guid: d7ed9442be93cbe408231a9a340ef516, type: 3}
     Desciption: "Ph\xE2n lo\u1EA1i r\xE1c c\xF2n l\u1EA1i"
     Time: 100
-    StoryList: []
+    StoryList:
+    - {fileID: 21300000, guid: 07f6d0f46c87c8f479cca324aa4d712d, type: 3}
+    - {fileID: 21300000, guid: a0fc36e5e00ef1145b94fa6b826c54ad, type: 3}
+    - {fileID: 21300000, guid: 3dde2ccb08cc88748a110dd335d9d661, type: 3}
+    - {fileID: 21300000, guid: f8d03134171a4ea45a90545ad8fdef61, type: 3}
+    - {fileID: 21300000, guid: 4a1abe6c718cb444e8472db013016ab1, type: 3}
+    - {fileID: 21300000, guid: 19085601a7e2535489cfe8bb4314ba1f, type: 3}
+    - {fileID: 21300000, guid: 6df25cfa4e2bb654a8b6e50d3464e27b, type: 3}
     ObjectList:
     - ObjectToSpawn:
         Name: 0
@@ -530,7 +537,14 @@ MonoBehaviour:
     Background: {fileID: 21300000, guid: 24fbebd188c904740a4e0aa78c1a55cd, type: 3}
     Desciption: "Ph\xE2n lo\u1EA1i r\xE1c th\u1EA3i nguy h\u1EA1i"
     Time: 100
-    StoryList: []
+    StoryList:
+    - {fileID: 21300000, guid: 07f6d0f46c87c8f479cca324aa4d712d, type: 3}
+    - {fileID: 21300000, guid: a0fc36e5e00ef1145b94fa6b826c54ad, type: 3}
+    - {fileID: 21300000, guid: 3dde2ccb08cc88748a110dd335d9d661, type: 3}
+    - {fileID: 21300000, guid: f8d03134171a4ea45a90545ad8fdef61, type: 3}
+    - {fileID: 21300000, guid: 4a1abe6c718cb444e8472db013016ab1, type: 3}
+    - {fileID: 21300000, guid: 19085601a7e2535489cfe8bb4314ba1f, type: 3}
+    - {fileID: 21300000, guid: 6df25cfa4e2bb654a8b6e50d3464e27b, type: 3}
     ObjectList:
     - ObjectToSpawn:
         Name: 0
@@ -864,7 +878,14 @@ MonoBehaviour:
     Background: {fileID: 21300000, guid: 904926378cc24954485beff3b24b0861, type: 3}
     Desciption: "Ph\xE2n lo\u1EA1i r\xE1c h\u1EEFu c\u01A1"
     Time: 100
-    StoryList: []
+    StoryList:
+    - {fileID: 21300000, guid: 07f6d0f46c87c8f479cca324aa4d712d, type: 3}
+    - {fileID: 21300000, guid: a0fc36e5e00ef1145b94fa6b826c54ad, type: 3}
+    - {fileID: 21300000, guid: 3dde2ccb08cc88748a110dd335d9d661, type: 3}
+    - {fileID: 21300000, guid: f8d03134171a4ea45a90545ad8fdef61, type: 3}
+    - {fileID: 21300000, guid: 4a1abe6c718cb444e8472db013016ab1, type: 3}
+    - {fileID: 21300000, guid: 19085601a7e2535489cfe8bb4314ba1f, type: 3}
+    - {fileID: 21300000, guid: 6df25cfa4e2bb654a8b6e50d3464e27b, type: 3}
     ObjectList:
     - ObjectToSpawn:
         Name: 0
@@ -1031,7 +1052,14 @@ MonoBehaviour:
     Background: {fileID: 21300000, guid: 517038a73212cab43a13002821d313c3, type: 3}
     Desciption: "Ph\xE2n lo\u1EA1i r\xE1c t\xE1i ch\u1EBF"
     Time: 100
-    StoryList: []
+    StoryList:
+    - {fileID: 21300000, guid: 07f6d0f46c87c8f479cca324aa4d712d, type: 3}
+    - {fileID: 21300000, guid: a0fc36e5e00ef1145b94fa6b826c54ad, type: 3}
+    - {fileID: 21300000, guid: 3dde2ccb08cc88748a110dd335d9d661, type: 3}
+    - {fileID: 21300000, guid: f8d03134171a4ea45a90545ad8fdef61, type: 3}
+    - {fileID: 21300000, guid: 4a1abe6c718cb444e8472db013016ab1, type: 3}
+    - {fileID: 21300000, guid: 19085601a7e2535489cfe8bb4314ba1f, type: 3}
+    - {fileID: 21300000, guid: 6df25cfa4e2bb654a8b6e50d3464e27b, type: 3}
     ObjectList:
     - ObjectToSpawn:
         Name: 0
@@ -1198,7 +1226,14 @@ MonoBehaviour:
     Background: {fileID: 21300000, guid: d7ed9442be93cbe408231a9a340ef516, type: 3}
     Desciption: "Ph\xE2n lo\u1EA1i r\xE1c c\xF2n l\u1EA1i"
     Time: 100
-    StoryList: []
+    StoryList:
+    - {fileID: 21300000, guid: 07f6d0f46c87c8f479cca324aa4d712d, type: 3}
+    - {fileID: 21300000, guid: a0fc36e5e00ef1145b94fa6b826c54ad, type: 3}
+    - {fileID: 21300000, guid: 3dde2ccb08cc88748a110dd335d9d661, type: 3}
+    - {fileID: 21300000, guid: f8d03134171a4ea45a90545ad8fdef61, type: 3}
+    - {fileID: 21300000, guid: 4a1abe6c718cb444e8472db013016ab1, type: 3}
+    - {fileID: 21300000, guid: 19085601a7e2535489cfe8bb4314ba1f, type: 3}
+    - {fileID: 21300000, guid: 6df25cfa4e2bb654a8b6e50d3464e27b, type: 3}
     ObjectList:
     - ObjectToSpawn:
         Name: 0
